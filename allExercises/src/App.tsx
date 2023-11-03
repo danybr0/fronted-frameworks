@@ -2,6 +2,7 @@ import Exercise from "./les1_components/exercise.tsx"
 import ExerciseOne from "./les1_components_ex1/ExerciseOne.tsx"
 import ExerciseTwo from "./les1_components_ex2/ExerciseTwo.tsx"
 import ExerciseThree from "./les1_components_ex3/ExerciseThree.tsx"
+import ExerciseFour from "./les1_components_ex4/ExerciseFour.tsx"
 
 
 function App() {
@@ -17,7 +18,9 @@ function App() {
       <Exercise title={'Exercise 3: Progress Bar'}>
         <ExerciseThree/>
       </Exercise>
-      <Exercise title={'Exercise 4: Number Grid'} background={'#77EEEE'}/>
+      <Exercise title={'Exercise 4: Number Grid'} background={'#77EEEE'}>
+        <ExerciseFour/>
+      </Exercise>
       <Exercise title={'Exercise 5: Comment Card'}/>
     </>
   )
